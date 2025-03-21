@@ -1,0 +1,225 @@
+body {
+    background-image: url('https://reneeroaming.com/wp-content/uploads/2020/08/Best-National-Park-Road-Trip-Itinerary-Grand-Teton-National-Park-Van-Life-819x1024.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lightcal .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.dark .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.lightcal .calculator {
+    height: 500px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.dark .calculator {
+    height: 500px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.lightcal .display {
+    height: 120px;
+    width: -webkit-fill-available;
+    background-color: rgb(234, 242, 245);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.dark .display {
+    color: white;
+    height: 120px;
+    width: -webkit-fill-available;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.lightcal .input {
+    height: 120px;
+    width: -webkit-fill-available;
+    background-color: rgb(234, 242, 245);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.dark .input {
+    height: 120px;
+    width: -webkit-fill-available;
+    background-color: rgba(9, 12, 17, 0.599);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.time {
+    height: 20px;
+    width: 20px;
+}
+i:hover {
+    cursor: pointer;
+}
+
+button {
+    height: 50px;
+    width: 60px;
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.lightcal .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-image: linear-gradient(to right, rgb(249 248 255), rgb(234, 238, 244));
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+}
+.buttons:hover {
+    cursor: pointer;
+}
+
+
+.dark .buttons {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-image: linear-gradient(to right, rgb(76, 76, 78), rgb(12, 13, 14));
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+}
+
+.darkbutt {
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+.dark:hover {
+    cursor: pointer;
+}
+
+.light {
+    border: none;
+    color: black;
+    background-color: white;
+}
+
+.light:hover {
+    cursor: pointer;
+}
+.toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    position: relative;
+    top: 18%;
+    right: 18%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    overflow: auto;
+}
+
+.close-btn {
+    position: relative;
+    float: right;
+    top: -10px;
+    right: -2px;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: red;
+    cursor: pointer;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+li {
+    list-style-type: none;
+    background-color: rgb(211, 227, 214);
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+    text-align: center;
+    padding-inline-start: 0px;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: aqua;
+}
